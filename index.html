@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,230 +8,246 @@
     <link rel="stylesheet" href="/src/style.css">
     <title>Nexcent | Landing Page</title>
 </head>
+
 <body>
-    
-    <header>
-        <nav class="navbar">
-            <div class="nav-logo"><img src="/src/img/nexcent-logo-dark.png" alt="Nexcent Logo"></div>
 
-            <ul class="nav-links">
-                <li class="nav-link"><a href="#hero">Hero</a></li>
-                <li class="nav-link"><a href="#services">Services</a></li>
-                <li class="nav-link"><a href="#feature">Feature</a></li>
-                <li class="nav-link"><a href="#product">Product</a></li>
-                <li class="nav-link"><a href="#testimonial">Testimonal</a></li>
-                <li class="nav-link"><a href="#faq">FAQ</a></li>
-            </ul>
+    <header class="flex-row-center">
+        <img src="/src/img/nexcent-logo-dark.png" alt="Nexcent Logo">
 
-            <div class="nav-cta">
-                <a class="login-btn" href="#"><button>Login</button></a>
-                <a class="signup-btn" href="#"><button>Sign up</button></a>
-            </div>
-        </nav>
+        <ul class="flex-row-center">
+            <li><a href="#hero" class="font-normal">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#feature">Feature</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#testimonial">Testimonal</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+
+        <div class="flex-row-center">
+            <a href="#"><button>Login</button></a>
+            <a href="#"><button>Sign up</button></a>
+        </div>
     </header>
 
     <main>
-
-        <section id="home">
-
-            <div class="hero-content">
-                <h1 class="hero-title">Lessons and insights <span class="break"> from 8 years</span></h1>
-                <p class="hero-subtitle">Where to grow your business as a photographer: site or social media?</p>
-                <a class="hero-cta" href="#"><button>Register</button></a>
+        <section class="flex-row-center" id="hero">
+            <div>
+                <h1>Lessons and insights <span class="break text-primary"> from 8 years</span></h1>
+                <p class="">Where to grow your business as a photographer: site or social media?</p>
+                <a href="#"><button>Register</button></a>
             </div>
 
-            <div class="hero-image">
-                <img src="/src/img/hero-img.png" alt="hero Image">
+            <img src="/src/img/hero-img.png" alt="hero Image">
+
+        </section>
+
+        <section class="flex-col-center text-center">
+            <h2>Our Clients</h2>
+            <p>We have been working with some Fortune 500+ companies.</p>
+            <div class="flex-row-center my-10">
+                <img src="/src/img/client-1.png" alt="Client 1">
+                <img src="/src/img/client-2.png" alt="Client 2">
+                <img src="/src/img/client-3.png" alt="Client 3">
+                <img src="/src/img/client-4.png" alt="Client 4">
+                <img src="/src/img/client-5.png" alt="Client 5">
+                <img src="/src/img/client-6.png" alt="Client 6">
+                <img src="/src/img/client-7.png" alt="Client 7">
             </div>
 
-            <div id="clients">
-                <h2 class="clients-title">Our Clients</h2>
-                <p class="clients-subtitle">We have been working with some Fortune 500+ companies.</p>
-                <div class="clients-logos">
+            <div>
+                <h2>Manage your entire community <span class="break">in a single system</span>
+                </h2>
+                <p>Who is Nexcent suitable for?</p>
+
+                <div class="flex-row-center my-15 gap-10">
+                    <div class="flex-col-center items-center max-w-xs">
+                        <img src="/src/img/membership.png" alt="Icon 1">
+                        <h3>Membership <span class="break">Organizations</span></h3>
+                        <p>Our membership management software provides full automation of
+                            membership renewals and payments</p>
+                    </div>
+                    <div class="flex-col-center items-center max-w-xs">
+                        <img src="/src/img/national.png" alt="Icon 1">
+                        <h3>National <span class="break">Associations</span></h3>
+                        <p>Our membership management software provides full automation of
+                            membership renewals and payments</p>
+                    </div>
+                    <div class="flex-col-center items-center max-w-xs">
+                        <img src="/src/img/groups.png" alt="Icon 1">
+                        <h3>Clubs And <span class="break">Groups</span></h3>
+                        <p>Our membership management software provides full automation of
+                            membership renewals and payments</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="flex-row-center gap-10">
+                <img class="flex-1/2" src="/src/img/img-2.png" alt="Learn Image">
+
+                <div class="flex-1/2 text-left">
+                    <h2>The unseen of spending three <span class="break">years at Pixelgrade</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo
+                        ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed
+                        porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam
+                        quis
+                        massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+                    <a href="#"><button>Learn More</button></a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="flex-row-center gap-10">
+
+            <div class="flex-1/2">
+                <h2>Helping a local <span class="break text-primary">business reinvent itself</span></h2>
+                <p>We reached here with our hard work and dedication</p>
+            </div>
+
+            <div class="insights-grid flex-1/2">
+                <div>
+                    <img src="/src/img/members.png" alt="Members">
+                    <div>
+                        <h3>2,245,341</h3>
+                        <p>Members</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="/src/img/groups.png" alt="Clubs">
+                    <div>
+                        <h3>46,328</h3>
+                        <p>Clubs</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="/src/img/touch.png" alt="Event Bookings">
+                    <div>
+                        <h3>828,867</h3>
+                        <p>Events Bookings</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="/src/img/card.png" alt="Payments">
+                    <div>
+                        <h3>1,926,436</h3>
+                        <p>Payments</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="flex-row-center gap-10">
+            <img class="flex-1/2" src="/src/img/img-3.png" alt="Design Image">
+
+            <div class="flex-1/2">
+                <h2>How to design your site footer like <span class="break">we did</span></h2>
+                <p>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue
+                    nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at
+                    libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi
+                    facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in
+                    nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac,
+                    hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+                <a href="#"><button>Learn More</button></a>
+            </div>
+
+        </section>
+
+        <section class="flex-row-center gap-10">
+            <img class="flex-2" src="/src/img/tesla.png" alt="Customers Image">
+
+            <div class="flex-3">
+
+                <p>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis
+                    sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare,
+                    tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at
+                    ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis
+                    tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti.
+                    Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget
+                    efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+
+                <h4>Tim Smith</h4>
+                <p>British Dragon Boat Racing Association</p>
+
+                <div class="flex-row-center">
                     <img src="/src/img/client-1.png" alt="Client 1">
                     <img src="/src/img/client-2.png" alt="Client 2">
                     <img src="/src/img/client-3.png" alt="Client 3">
                     <img src="/src/img/client-4.png" alt="Client 4">
                     <img src="/src/img/client-5.png" alt="Client 5">
+                    <a href="#"><button>Meet all customers</button></a>
                 </div>
             </div>
 
-            <div class="community">
-                <h2 class="community-title">Manage your entire community <span class="break">in a single system</span></h2>
-                <p class="community-subtitle">Who is Nexcent suitable for?</p>
-
-                <div class="community-cards">
-                    <div class="card">
-                        <img src="/src/img/membership.png" alt="Icon 1">
-                        <h3 class="card-title">Membership <span class="break">Organizations</span></h3>
-                        <p class="card-description">Our membership management software provides full automation of membership renewals and payments</p>
-                    </div>
-                    <div class="card">
-                        <img src="/src/img/national.png" alt="Icon 1">
-                        <h3 class="card-title">National <span class="break">Associations</span></h3>
-                        <p class="card-description">Our membership management software provides full automation of membership renewals and payments</p>
-                    </div>
-                    <div class="card">
-                        <img src="/src/img/membership.png" alt="Icon 1">
-                        <h3 class="card-title">Clubs And <span class="break">Groups</span></h3>
-                        <p class="card-description">Our membership management software provides full automation of membership renewals and payments</p>
-                    </div>
-                </div>
-                    
-            </div>
         </section>
 
-        <section id="body">
+        <section>
 
-            <div class="learn">
+            <div class="text-center">
+                <h2>Caring is the new marketing</h2>
 
-                <img class="learn-image" src="/src/img/img-2.png" alt="Learn Image">
-
-                <div class="learn-content">
-                    <h2 class="learn-title">The unseen of spending three years at Pixelgrade</h2>
-                    <p class="learn-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
-                    <a class="learn-cta" href="#"><button>Learn More</button></a>
-                </div>
-
-            </div>
-
-            <div class="insights">
-
-                <div class="insights-content">
-                    <h2 class="insights-title">Helping a local <span class="break">business reinvent itself</span></h2>
-                    <p class="insights-description">We reached here with our hard work and dedication</p>
-                </div>
-
-                <div class="insights-grid">
-                    <div class="grid-item">
-                        <img src="/src/img/members.png" alt="Members">
-                        <div class="grid-item-desc">
-                            <h3 class="grid-title">2,245,341</h3>
-                        <p class="grid-description">Members</p>
-                        </div>
-                    </div>
-                    
-                    <div class="grid-item">
-                        <img src="/src/img/groups.png" alt="Clubs">
-                        <div class="grid-item-desc">
-                            <h3 class="grid-title">46,328</h3>
-                        <p class="grid-description">Clubs</p>
-                        </div>
-                    </div>
-                    
-                    <div class="grid-item">
-                        <img src="/src/img/touch.png" alt="Event Bookings">
-                        <div class="grid-item-desc">
-                            <h3 class="grid-title">828,867</h3>
-                        <p class="grid-description">Events Bookings</p>
-                        </div>
-                    </div>
-                    
-                    <div class="grid-item">
-                        <img src="/src/img/card.png" alt="Payments">
-                        <div class="grid-item-desc">
-                            <h3 class="grid-title">1,926,436</h3>
-                        <p class="grid-description">Payments</p>
-                        </div>
-                    </div>
-
-                </div>
+                <p>
+                    The Nexcent blog is the best place to read about the latest membership insights, <span
+                        class="break">trends and more. See who's joining the communityb, read about how our
+                        community</span> <span class="break">are increasing their membership income and lot's
+                        more.</span>
+                </p>
 
             </div>
 
-            <div class="design">
-                <img class="design-image" src="/src/img/img-3.png" alt="Design Image">
-                
-                <div class="design-content">
-                    <h2 class="design-title">How to design your site footer like we did</h2>
-                    <p class="design-description">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
-                    <a class="design-cta" href="#"><button>Learn More</button></a>
-                </div>
+            <div class="flex-row-center g-5">
 
-            </div>
+                <div class=" bg-[url('/src/img/image-1.png')] bg-cover bg-center p-10 rounded relative max-w-2xs">
 
-            <div class="customers">
-                <img class="customers-image" src="/src/img/tesla.png" alt="Customers Image">
-
-                <div class="customers-content">
-            
-                    <p class="customers-description">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
-
-                    <h4 class="customers-name">Tim Smith</h4>
-                    <p>British Dragon Boat Racing Association</p>
-
-                    <div class="clients-logos">
-                        <img src="/src/img/client-1.png" alt="Client 1">
-                        <img src="/src/img/client-2.png" alt="Client 2">
-                        <img src="/src/img/client-3.png" alt="Client 3">
-                        <img src="/src/img/client-4.png" alt="Client 4">
-                        <img src="/src/img/client-5.png" alt="Client 5">
-                        <a class="customers-cta" href="#"><button>Meet all customers</button></a>
-                    </div>
-            </div>
-
-        </div> 
-
-        <div class="marketing">
-            
-            <div class="marketing-head">
-                <h2 class="marketing-title">Caring is the new marketing</h2>
-
-            <p class="marketing-description">
-                The Nexcent blog is the best place to read about the latest membership insights, <span class="break">trends and more. See who's joining the communityb, read about how our community</span> <span class="break">are increasing their membership income and lot's more.</span>
-            </p>
-
-            </div>
-
-            <div class="">
-
-                <div class="">
-
-                    <div class="marketing-card">
-                        <p class="">Creating Streamlined Safeguarding Processes with OneRen</p>
-                        <a href="">Read More</a>
+                    <div class="bg-white bg-opacity-80 p-5 shadow-md rounded-sm">
+                        <p>Creating Streamlined Safeguarding Processes with OneRen</p>
+                        <a href=""><button>Read More</button></a>
                     </div>
                 </div>
 
-                <div class="">
+                <div>
 
-                    <div class="marketing-card">
-                        <p class="">What are your safeguarding responsibilities and how can you manage them?</p>
-                        <a href="">Read More</a>
+                    <div>
+                        <p>What are your safeguarding responsibilities and how can you manage them?</p>
+                        <a href=""><button>Read More</button></a>
                     </div>
                 </div>
 
-                <div class="">
+                <div>
 
-                    <div class="marketing-card">
-                        <p class="">Revamping the Membership Model with Triathlon Australia</p>
-                        <a href="">Read More</a>
+                    <div>
+                        <p>Revamping the Membership Model with Triathlon Australia</p>
+                        <a href=""><button>Read More</button></a>
                     </div>
                 </div>
 
             </div>
 
-        </div>
 
-        <div class="demo">
-            <h2 class="demo-title">Pellentesque suscipit <span class="break">fringilla libero eu.</span></h2>
+            <div class="flex-col-center text-center my-10">
+                <h2 class="mb-5">Pellentesque suscipit <span class="break">fringilla libero eu.</span></h2>
 
-            <a class="demo-cta" href="#"><button>Get a Demo</button></a>
-        </div>
+                <a href="#"><button>Get a Demo</button></a>
+            </div>
 
         </section>
 
     </main>
 
-    <footer>
+    <footer class="flex flex-row justify-between">
 
-        <div class="">
-            <div class="nav-logo"><img src="/src/img/nexcent-logo-light.png" alt="Nexcent Logo"></div>
+        <div>
+            <img src="/src/img/nexcent-logo-light.png" alt="Nexcent Logo">
 
             <p>Copyright © 2020 Nexcent ltd.</p>
             <p>All rights reserved</p>
 
-            <div class="social-logos">
+            <div class="social-logos flex-row-center">
                 <img src="/src/img/insta.png" alt="Instagram">
                 <img src="/src/img/dribble.png" alt="Dribble">
                 <img src="/src/img/twitter.png" alt="Twitter">
@@ -238,30 +255,30 @@
             </div>
         </div>
 
-        <div class="">
-            <h3 class="">Company</h3>
+        <div>
+            <h3 class="text-white">Company</h3>
 
-            <ul class="">
-                <ul class="">About us</ul>
-                <ul class="">Blog</ul>
-                <ul class="">Contact us</ul>
-                <ul class="">Pricing</ul>
-                <ul class="">Testimonals</ul>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Testimonials</a></li>
             </ul>
         </div>
-        <div class="">
-            <h3 class="">Support</h3>
+        <div>
+            <h3 class="text-white">Support</h3>
 
-            <ul class="">
-                <ul class="">Help center</ul>
-                <ul class="">Terms of Service</ul>
-                <ul class="">Legal</ul>
-                <ul class="">Privacy policy</ul>
-                <ul class="">Status</ul>
+            <ul>
+                <li><a href="#">Help center</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Status</a></li>
             </ul>
         </div>
-        <div class="">
-            <h3 class="">Stay up to date</h3>
+        <div>
+            <h3 class="text-white">Stay up to date</h3>
 
             <form action="#" class="email">
                 <input type="text" class="email-input" placeholder="Your email address">
@@ -272,4 +289,5 @@
     </footer>
     <script type="module" src="/src/main.js"></script>
 </body>
+
 </html>
