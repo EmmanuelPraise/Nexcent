@@ -14,44 +14,50 @@
     <header class="flex-row-center">
         <img src="/src/img/nexcent-logo-dark.png" alt="Nexcent Logo">
 
-        <ul class="flex-row-center">
-            <li><a href="#hero" class="font-normal">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#feature">Feature</a></li>
-            <li><a href="#product">Product</a></li>
-            <li><a href="#testimonial">Testimonal</a></li>
-            <li><a href="#faq">FAQ</a></li>
-        </ul>
+        <nav>
+            <ul class="flex-row-center">
+                <li><a href="#hero" class="font-normal">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#feature">Feature</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#testimonial">Testimonial</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
 
         <div class="flex-row-center">
-            <a href="#"><button class="text-primary! bg-white! border border-primary! hover:text-white! hover:bg-primary!">Login</button></a>
+            <a href="#"><button
+                    class="text-primary bg-white border border-primary hover:text-white hover:bg-primary">Login</button></a>
             <a href="#"><button>Sign up</button></a>
         </div>
     </header>
 
     <main>
         <section class="flex-row-center" id="hero">
-            <div>
+            <div class="md:w-1/2">
                 <h1>Lessons and insights <span class="break text-primary"> from 8 years</span></h1>
                 <p class="">Where to grow your business as a photographer: site or social media?</p>
                 <a href="#"><button>Register</button></a>
             </div>
 
-            <img src="/src/img/hero-img.png" alt="hero Image">
+            <img src="/src/img/hero-img.png" alt="Happy people using a laptop" class="md:w-1/2">
 
         </section>
 
         <section class="flex-col-center text-center">
-            <h2>Our Clients</h2>
-            <p>We have been working with some Fortune 500+ companies.</p>
-            <div class="flex-row-center my-10">
-                <img src="/src/img/client-1.png" alt="Client 1">
-                <img src="/src/img/client-2.png" alt="Client 2">
-                <img src="/src/img/client-3.png" alt="Client 3">
-                <img src="/src/img/client-4.png" alt="Client 4">
-                <img src="/src/img/client-5.png" alt="Client 5">
-                <img src="/src/img/client-6.png" alt="Client 6">
-                <img src="/src/img/client-7.png" alt="Client 7">
+
+            <div>
+                <h2>Our Clients</h2>
+                <p>We have been working with some Fortune 500+ companies.</p>
+                <div class="flex-row-center my-10 flex-wrap justify-center gap-4">
+                    <img src="/src/img/client-1.png" alt="Client Logo 1">
+                    <img src="/src/img/client-2.png" alt="Client Logo 2">
+                    <img src="/src/img/client-3.png" alt="Client Logo 3">
+                    <img src="/src/img/client-4.png" alt="Client Logo 4">
+                    <img src="/src/img/client-5.png" alt="Client Logo 5">
+                    <img src="/src/img/client-6.png" alt="Client Logo 6">
+                    <img src="/src/img/client-7.png" alt="Client Logo 7">
+                </div>
             </div>
 
             <div>
@@ -59,21 +65,21 @@
                 </h2>
                 <p>Who is Nexcent suitable for?</p>
 
-                <div class="flex-row-center my-15 gap-10">
-                    <div class="flex-col-center items-center max-w-xs">
-                        <img src="/src/img/membership.png" alt="Icon 1">
+                <div class="flex flex-col md:flex-row justify-center my-15 gap-10">
+                    <div class="flex-col-center items-center max-w-xs p-6 shadow-lg rounded-lg">
+                        <img src="/src/img/membership.png" alt="Membership Icon">
                         <h3>Membership <span class="break">Organizations</span></h3>
                         <p>Our membership management software provides full automation of
                             membership renewals and payments</p>
                     </div>
-                    <div class="flex-col-center items-center max-w-xs">
-                        <img src="/src/img/national.png" alt="Icon 1">
+                    <div class="flex-col-center items-center max-w-xs p-6 shadow-lg rounded-lg">
+                        <img src="/src/img/national.png" alt="National Association Icon">
                         <h3>National <span class="break">Associations</span></h3>
                         <p>Our membership management software provides full automation of
                             membership renewals and payments</p>
                     </div>
-                    <div class="flex-col-center items-center max-w-xs">
-                        <img src="/src/img/groups.png" alt="Icon 1">
+                    <div class="flex-col-center items-center max-w-xs p-6 shadow-lg rounded-lg">
+                        <img src="/src/img/groups.png" alt="Clubs and Groups Icon">
                         <h3>Clubs And <span class="break">Groups</span></h3>
                         <p>Our membership management software provides full automation of
                             membership renewals and payments</p>
@@ -82,10 +88,10 @@
 
             </div>
 
-            <div class="flex-row-center gap-10">
-                <img class="flex-1/2" src="/src/img/img-2.png" alt="Learn Image">
+            <div class="flex-row-center gap-10 mt-16">
+                <img class="md:w-1/2" src="/src/img/img-2.png" alt="A person working at a desk">
 
-                <div class="flex-1/2 text-left">
+                <div class="md:w-1/2 text-left">
                     <h2>The unseen of spending three <span class="break">years at Pixelgrade</span></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo
                         ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed
@@ -100,41 +106,41 @@
 
         <section class="flex-row-center gap-10">
 
-            <div class="flex-1/2">
+            <div class="md:w-1/2">
                 <h2>Helping a local <span class="break text-primary">business reinvent itself</span></h2>
                 <p>We reached here with our hard work and dedication</p>
             </div>
 
-            <div class="insights-grid flex-1/2">
-                <div>
-                    <img src="/src/img/members.png" alt="Members">
+            <div class="insights-grid md:w-1/2">
+                <div class="flex items-center gap-4">
+                    <img src="/src/img/members.png" alt="Members Icon" class="w-12 h-12">
                     <div>
                         <h3>2,245,341</h3>
-                        <p>Members</p>
+                        <p class="mb-0">Members</p>
                     </div>
                 </div>
 
-                <div>
-                    <img src="/src/img/groups.png" alt="Clubs">
+                <div class="flex items-center gap-4">
+                    <img src="/src/img/groups.png" alt="Clubs Icon" class="w-12 h-12">
                     <div>
                         <h3>46,328</h3>
-                        <p>Clubs</p>
+                        <p class="mb-0">Clubs</p>
                     </div>
                 </div>
 
-                <div>
-                    <img src="/src/img/touch.png" alt="Event Bookings">
+                <div class="flex items-center gap-4">
+                    <img src="/src/img/touch.png" alt="Event Bookings Icon" class="w-12 h-12">
                     <div>
                         <h3>828,867</h3>
-                        <p>Events Bookings</p>
+                        <p class="mb-0">Events Bookings</p>
                     </div>
                 </div>
 
-                <div>
-                    <img src="/src/img/card.png" alt="Payments">
+                <div class="flex items-center gap-4">
+                    <img src="/src/img/card.png" alt="Payments Icon" class="w-12 h-12">
                     <div>
                         <h3>1,926,436</h3>
-                        <p>Payments</p>
+                        <p class="mb-0">Payments</p>
                     </div>
                 </div>
 
@@ -143,9 +149,9 @@
         </section>
 
         <section class="flex-row-center gap-10">
-            <img class="flex-1/2" src="/src/img/img-3.png" alt="Design Image">
+            <img class="md:w-1/2" src="/src/img/img-3.png" alt="People sitting and discussing">
 
-            <div class="flex-1/2">
+            <div class="md:w-1/2">
                 <h2>How to design your site footer like <span class="break">we did</span></h2>
                 <p>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue
                     nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at
@@ -159,9 +165,9 @@
         </section>
 
         <section class="flex-row-center gap-10">
-            <img class="flex-2" src="/src/img/tesla.png" alt="Customers Image">
+            <img class="md:w-2/5" src="/src/img/tesla.png" alt="Tim Smith, a customer">
 
-            <div class="flex-3">
+            <div class="md:w-3/5">
 
                 <p>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis
                     sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare,
@@ -174,13 +180,15 @@
                 <h4>Tim Smith</h4>
                 <p>British Dragon Boat Racing Association</p>
 
-                <div class="flex-row-center">
-                    <img src="/src/img/client-1.png" alt="Client 1">
-                    <img src="/src/img/client-2.png" alt="Client 2">
-                    <img src="/src/img/client-3.png" alt="Client 3">
-                    <img src="/src/img/client-4.png" alt="Client 4">
-                    <img src="/src/img/client-5.png" alt="Client 5">
-                    <a href="#"><button>Meet all customers</button></a>
+                <div class="flex-row-center flex-wrap justify-start gap-5">
+                    <img src="/src/img/client-1.png" alt="Client Logo 1">
+                    <img src="/src/img/client-2.png" alt="Client Logo 2">
+                    <img src="/src/img/client-3.png" alt="Client Logo 3">
+                    <img src="/src/img/client-4.png" alt="Client Logo 4">
+                    <img src="/src/img/client-5.png" alt="Client Logo 5">
+                    <a href="#"><button
+                            class="text-primary bg-white hover:text-white hover:bg-primary border border-primary">Meet
+                            all customers</button></a>
                 </div>
             </div>
 
@@ -191,46 +199,58 @@
             <div class="text-center">
                 <h2>Caring is the new marketing</h2>
 
-                <p>
+                <p class="max-w-3xl mx-auto">
                     The Nexcent blog is the best place to read about the latest membership insights, <span
-                        class="break">trends and more. See who's joining the communityb, read about how our
+                        class="break">trends and more. See who's joining the community, read about how our
                         community</span> <span class="break">are increasing their membership income and lot's
                         more.</span>
                 </p>
 
             </div>
 
-            <div class="grid grid-cols-3 justify-between">
+            <div class="grid grid-cols-1 md:grid-cols-3 justify-between gap-8 mt-10">
 
-                    <div class="">
-                        <img src="/src/img/image-1.png" alt="">
-                        <p>Creating Streamlined Safeguarding Processes with OneRen</p>
-                        <a href=""><button>Read More</button></a>
-                    </div>
-
-                <div>
-
-                    <div class="">
-                        <img src="/src/img/image-2.png" alt="">
-                        <p>What are your safeguarding responsibilities and how can you manage them?</p>
-                        <a href=""><button>Read More</button></a>
+                <div class="relative rounded-lg shadow-lg">
+                    <img src="/src/img/image-1.png" alt="Handshake over a table">
+                    <div
+                        class="absolute bottom-0 left-0 right-0 bg-white p-4 text-center mx-6 mb-4 rounded-lg shadow-xl translate-y-1/2">
+                        <p class="mb-3 font-semibold text-lg">Creating Streamlined Safeguarding Processes with OneRen
+                        </p>
+                        <a href="#"><button
+                                class="text-primary bg-white hover:text-white hover:bg-primary border border-primary font-semibold text-sm">Read
+                                More →</button></a>
                     </div>
                 </div>
 
-                <div>
+                <div class="relative rounded-lg shadow-lg">
+                    <img src="/src/img/image-2.png" alt="A person working on a laptop">
+                    <div
+                        class="absolute bottom-0 left-0 right-0 bg-white p-4 text-center mx-6 mb-4 rounded-lg shadow-xl translate-y-1/2">
+                        <p class="mb-3 font-semibold text-lg">What are your safeguarding responsibilities and how can
+                            you manage them?</p>
+                        <a href="#"><button
+                                class="text-primary bg-white hover:text-white hover:bg-primary border border-primary font-semibold text-sm">Read
+                                More →</button></a>
+                    </div>
+                </div>
 
-                    <div class="">
-                        <img src="/src/img/image-3.png" alt="">
-                        <p>Revamping the Membership Model with Triathlon Australia</p>
-                        <a href=""><button>Read More</button></a>
+                <div class="relative rounded-lg shadow-lg">
+                    <img src="/src/img/image-3.png" alt="A group of people standing together">
+                    <div
+                        class="absolute bottom-0 left-0 right-0 bg-white p-4 text-center mx-6 mb-4 rounded-lg shadow-xl translate-y-1/2">
+                        <p class="mb-3 font-semibold text-lg">Revamping the Membership Model with Triathlon Australia
+                        </p>
+                        <a href="#"><button
+                                class="text-primary bg-white hover:text-white hover:bg-primary border border-primary font-semibold text-sm">Read
+                                More →</button></a>
                     </div>
                 </div>
 
             </div>
 
-
-            <div class="flex-col-center text-center my-10">
-                <h2 class="mb-5">Pellentesque suscipit <span class="break">fringilla libero eu.</span></h2>
+            <div class="flex-col-center text-center my-40 py-10">
+                <h2 class="mb-5 text-4xl font-extrabold text-secondary">Pellentesque suscipit <span
+                        class="break">fringilla libero eu.</span></h2>
 
                 <a href="#"><button>Get a Demo</button></a>
             </div>
@@ -239,26 +259,26 @@
 
     </main>
 
-    <footer class="">
+    <footer class="md:grid md:grid-cols-4 gap-10">
 
         <div>
-            <img src="/src/img/nexcent-logo-light.png" alt="Nexcent Logo" class="mb-5">
+            <img src="/src/img/nexcent-logo-light.png" alt="Nexcent Logo Light" class="mb-5">
 
-            <p>Copyright © 2020 Nexcent ltd.</p>
-            <p>All rights reserved</p>
+            <p class="mb-0">Copyright © 2020 Nexcent ltd.</p>
+            <p class="mb-0">All rights reserved</p>
 
-            <div class="flex-row-center">
-                <img src="/src/img/insta.png" alt="Instagram">
-                <img src="/src/img/dribble.png" alt="Dribble">
-                <img src="/src/img/twitter.png" alt="Twitter">
-                <img src="/src/img/yt.png" alt="Youtube">
+            <div class="flex-row-center justify-start gap-4 mt-5">
+                <a href="#"><img src="/src/img/insta.png" alt="Instagram Icon"></a>
+                <a href="#"><img src="/src/img/dribble.png" alt="Dribble Icon"></a>
+                <a href="#"><img src="/src/img/twitter.png" alt="Twitter Icon"></a>
+                <a href="#"><img src="/src/img/yt.png" alt="Youtube Icon"></a>
             </div>
         </div>
 
         <div>
             <h3 class="text-white">Company</h3>
 
-            <ul>
+            <ul class="space-y-2">
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact us</a></li>
@@ -269,7 +289,7 @@
         <div>
             <h3 class="text-white">Support</h3>
 
-            <ul>
+            <ul class="space-y-2">
                 <li><a href="#">Help center</a></li>
                 <li><a href="#">Terms of Service</a></li>
                 <li><a href="#">Legal</a></li>
@@ -281,8 +301,9 @@
             <h3 class="text-white">Stay up to date</h3>
 
             <form action="#" class="flex-row-center">
-                <input type="text" placeholder="Your email address">
-                <button type="button" class="bg-send-btn-bg! border-0! px-3! rounded-l-none! py-3.5!"><img src="/src/img/send.png" alt=""></button>
+                <input type="text" placeholder="Your email address" class="w-full">
+                <button type="button" class="bg-send-btn-bg! border-0! px-3! rounded-l-none! py-3.5!"><img
+                        src="/src/img/send.png" alt=""></button>
             </form>
         </div>
 
