@@ -1,81 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
 
 @theme {
-    --color-primary: rgb(76, 175, 79);
-    --color-primary-hover: rgb(56, 142, 60);
-    --color-secondary: rgb(77, 77, 77);
-    --color-accent: rgb(245, 247, 250);
-    --color-footer-text: rgb(240, 242, 245);
-    --color-footer-bg: rgb(38, 50, 56);
-    --font-inter: "Inter", sans-serif;
+  --color-primary: rgb(76, 175, 79);
+  --color-primary-hover: rgb(56, 142, 60);
+  --color-secondary: rgb(77, 77, 77);
+  --color-accent: rgb(245, 247, 250);
+  --color-footer-text: rgb(240, 242, 245);
+  --color-send-btn-bg: rgb(81, 91, 96);
+  --color-footer-bg: rgb(38, 50, 56);
+  --font-inter: "Inter", sans-serif;
 }
 
 body {
-    @apply text-secondary font-inter;
+  @apply text-secondary font-inter;
 }
 
 header {
-    @apply py-8 px-20 bg-white shadow-md;
+  @apply py-4 sm:py-6 md:py-8 px-10 sm:px-15 md:px-20 bg-white shadow-md;
 }
 
 header ul, header div {
-    @apply gap-5
+  @apply gap-5;
 }
 
 h1, h2, h3, h4 {
-    @apply font-semibold;
+  @apply font-semibold;
 }
 
 h1 {
-    @apply text-6xl mb-5;
+  @apply text-5xl md:text-6xl mb-5;
 }
 
 h2 {
-    @apply text-3xl mb-4;
+  @apply text-2xl md:text-3xl mb-4;
 }
 
 h3 {
-    @apply text-2xl mb-3;
+  @apply text-xl md:text-2xl mb-3;
 }
 
 h4 {
-    @apply text-xl mb-2 text-primary;
+  @apply text-l md:text-xl mb-2 text-primary;
 }
 
 .break {
-    @apply block;
+  @apply block;
 }
 
 p {
-    @apply text-base font-normal mb-5;
+  @apply md:text-base text-sm font-normal mb-5;
 }
 
 img {
-    @apply max-w-full h-auto w-fit;
+  @apply max-w-full h-auto w-fit;
 }
 
 section {
-    @apply py-12 px-20 bg-white nth-[odd]:bg-accent;
+  @apply py-8 sm:py-10 md:py-12 px-10 sm:px-15 md:px-20 bg-white nth-[odd]:bg-accent;
 }
 
-
 button {
-    @apply bg-primary hover:bg-primary-hover text-white font-semibold py-2 px-4 rounded;
+  @apply bg-primary text-white hover:text-primary hover:bg-white border hover:border-primary! font-semibold py-2 px-4 rounded;
 }
 
 .insights-grid {
-    @apply grid grid-cols-1 md:grid-cols-2 gap-6;
+  @apply grid grid-cols-1 md:grid-cols-2 gap-6;
 }
 
 .flex-row-center {
-    @apply flex flex-row justify-between items-center;
+  @apply flex md:flex-row flex-col justify-between items-center;
 }
 
 .flex-col-center {
-    @apply flex flex-col justify-center;
+  @apply flex flex-col justify-center;
 }
 
 footer {
-    @apply py-12 px-10 gap-5 bg-footer-bg text-footer-text;
+  @apply flex flex-col md:flex-row justify-between py-8 sm:py-10 md:py-12 px-6 sm:px-8 md:px-10 gap-5 bg-footer-bg text-footer-text;
+}
+
+input[type="text"] {
+  @apply p-3 rounded-l border-0! focus:outline-none bg-send-btn-bg! text-white;
 }

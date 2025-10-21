@@ -24,7 +24,7 @@
         </ul>
 
         <div class="flex-row-center">
-            <a href="#"><button>Login</button></a>
+            <a href="#"><button class="text-primary! bg-white! border border-primary! hover:text-white! hover:bg-primary!">Login</button></a>
             <a href="#"><button>Sign up</button></a>
         </div>
     </header>
@@ -200,19 +200,18 @@
 
             </div>
 
-            <div class="flex-row-center g-5">
+            <div class="grid grid-cols-3 justify-between">
 
-                <div class=" bg-[url('/src/img/image-1.png')] bg-cover bg-center p-10 rounded relative max-w-2xs">
-
-                    <div class="bg-white bg-opacity-80 p-5 shadow-md rounded-sm">
+                    <div class="">
+                        <img src="/src/img/image-1.png" alt="">
                         <p>Creating Streamlined Safeguarding Processes with OneRen</p>
                         <a href=""><button>Read More</button></a>
                     </div>
-                </div>
 
                 <div>
 
-                    <div>
+                    <div class="">
+                        <img src="/src/img/image-2.png" alt="">
                         <p>What are your safeguarding responsibilities and how can you manage them?</p>
                         <a href=""><button>Read More</button></a>
                     </div>
@@ -220,7 +219,8 @@
 
                 <div>
 
-                    <div>
+                    <div class="">
+                        <img src="/src/img/image-3.png" alt="">
                         <p>Revamping the Membership Model with Triathlon Australia</p>
                         <a href=""><button>Read More</button></a>
                     </div>
@@ -239,15 +239,15 @@
 
     </main>
 
-    <footer class="flex flex-row justify-between">
+    <footer class="">
 
         <div>
-            <img src="/src/img/nexcent-logo-light.png" alt="Nexcent Logo">
+            <img src="/src/img/nexcent-logo-light.png" alt="Nexcent Logo" class="mb-5">
 
             <p>Copyright © 2020 Nexcent ltd.</p>
             <p>All rights reserved</p>
 
-            <div class="social-logos flex-row-center">
+            <div class="flex-row-center">
                 <img src="/src/img/insta.png" alt="Instagram">
                 <img src="/src/img/dribble.png" alt="Dribble">
                 <img src="/src/img/twitter.png" alt="Twitter">
@@ -280,9 +280,9 @@
         <div>
             <h3 class="text-white">Stay up to date</h3>
 
-            <form action="#" class="email">
-                <input type="text" class="email-input" placeholder="Your email address">
-                <button type="button" class="email-btn"><img src="/src/img/send.png" alt=""></button>
+            <form action="#" class="flex-row-center">
+                <input type="text" placeholder="Your email address">
+                <button type="button" class="bg-send-btn-bg! border-0! px-3! rounded-l-none! py-3.5!"><img src="/src/img/send.png" alt=""></button>
             </form>
         </div>
 
